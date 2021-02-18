@@ -1,10 +1,12 @@
 version = 1
 
-test_patterns = ["spec/support/tests/**/*.rb"]
+test_patterns = ["spec/**"]
 
 exclude_patterns = [
     "bin/**",
-    "docs/**"
+    "doc_config/**",
+    "docs/errors/**",
+    "gemfiles/**"
 ]
 
 [[analyzers]]
